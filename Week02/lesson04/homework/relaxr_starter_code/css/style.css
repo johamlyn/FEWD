@@ -11,6 +11,7 @@ Developer @GA in NYC
 /*******************************************/
 
 /* Box Model Hack */
+
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -46,14 +47,71 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
+     color: #f0efef;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: Open Sans, Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: cover;
 }
 
+h1{
+  font-weight: bolder;
+  font-size: 24px;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+em {
+  font-weight:bold;
+  font-size: 24px;
+  margin-top: 500px;
+  text-align:center;
+}
+
+h2{
+  color: #121212;
+  font-weight:lighter;
+  font-size: 24px;
+  margin-left: 100px
+}
+
+p{
+  margin-left: 100px
+}
+
+ol{
+   list-style-type: disc;
+   margin-left: 150px;
+   line-height: 2;
+}
+
+nav{
+  color: #033048;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #f9e42e;
+  border-radius: 14px 5px;
+}
+
+.benefits {
+  color: #606161;
+  background-color: #f0efef;
+  height: 250px;
+}
+
+blockquote {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+  font-style: italic;
+}
+
+span {
+  font-weight: bold;
+  font-size: 18px;
+  font-style: normal;
+}
 
 /******************************************
 /* LAYOUT
@@ -78,7 +136,3 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
