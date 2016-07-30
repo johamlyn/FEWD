@@ -47,32 +47,50 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+     font-size: 24px;
      color: #f0efef;
-     font-size: 12px;
      line-height: 1.4;
      font-family: Open Sans, Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover;
+
 }
 
-h1{
-  font-weight: bolder;
-  font-size: 24px;
-  margin-top: 25px;
-  margin-left: 100px;
+h1 {
+   font-weight: bolder;
+   margin-top: 50px;
+   margin-left: 100px;
 }
 
 em {
-  font-weight:bold;
-  font-size: 24px;
-  margin-top: 500px;
-  text-align:center;
+   font-weight:bold;
+   text-align:center;
+   line-height: 200px;
+}
+
+nav{
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  color: #033048;
+  background-color: #f9e42e;
+  border-radius: 5px;
+}
+
+.benefits {
+  font-weight: lighter;
+  font-size: 13px;
+  color: #606161;
+  background-color: #f0efef;
+  height: 250px;
 }
 
 h2{
+  font-weight:bold;
+  font-size: 20px;
   color: #121212;
-  font-weight:lighter;
-  font-size: 24px;
+  padding-top: 20px;
   margin-left: 100px
 }
 
@@ -82,35 +100,28 @@ p{
 
 ol{
    list-style-type: disc;
+   padding-bottom: 20px;
    margin-left: 150px;
    line-height: 2;
 }
 
-nav{
-  color: #033048;
-  font-weight: bolder;
-  text-align: center;
-  background-color: #f9e42e;
-  border-radius: 14px 5px;
-}
-
-.benefits {
-  color: #606161;
-  background-color: #f0efef;
-  height: 250px;
-}
-
 blockquote {
-  text-align: center;
+  font-style: italic;
   font-weight: lighter;
   font-size: 18px;
-  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 span {
   font-weight: bold;
-  font-size: 18px;
   font-style: normal;
+}
+
+.link {
+  background-color: #033048;
+  color: #f9e42e;
 }
 
 /******************************************
@@ -130,7 +141,9 @@ header {
 }
 
 footer {
-
+          font-weight: bold;
+          font-size: 9px;
+          text-align: center;
 }
 
 /******************************************
