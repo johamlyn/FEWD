@@ -47,13 +47,15 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     font-size: 24px;
      color: #f0efef;
-     line-height: 1.4;
      font-family: Open Sans, Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover;
+}
 
+header {
+       font-size: 24px;
+       height: 500px;
 }
 
 h1 {
@@ -62,31 +64,37 @@ h1 {
    margin-left: 100px;
 }
 
-em {
+h2 {
    font-weight:bold;
    text-align:center;
-   line-height: 200px;
+   line-height: 300px;
 }
 
 nav{
-  font-weight: bolder;
-  font-size: 14px;
-  text-align: center;
-  line-height: 30px;
-  color: #033048;
-  background-color: #f9e42e;
-  border-radius: 5px;
+   background-color: #f9e42e;
+   width: 150px;
+   margin:0 auto;
+   border-radius: 5px;
+}
+
+nav a {
+       font-weight: bolder;
+       font-size: 14px;
+       text-align: center;
+       text-decoration: none;
+       line-height: 30px;
+       color: #033048;
 }
 
 .benefits {
-  font-weight: lighter;
-  font-size: 13px;
-  color: #606161;
-  background-color: #f0efef;
-  height: 250px;
+          font-weight: lighter;
+          font-size: 13px;
+          color: #606161;
+          background-color: #f0efef;
+          height: 230px;
 }
 
-h2{
+h3{
   font-weight:bold;
   font-size: 20px;
   color: #121212;
@@ -95,6 +103,7 @@ h2{
 }
 
 p{
+  padding-bottom: 20px;
   margin-left: 100px
 }
 
@@ -105,23 +114,35 @@ ol{
    line-height: 2;
 }
 
+.quote {
+       height:130px;
+}
+
 blockquote {
-  font-style: italic;
-  font-weight: lighter;
-  font-size: 18px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+           font-style: italic;
+           font-weight: lighter;
+           font-size: 18px;
+           text-align: center;
+           padding-top: 20px;
+           padding-bottom: 20px;
 }
 
 span {
-  font-weight: bold;
-  font-style: normal;
+     font-weight: bold;
+     font-style: normal;
 }
 
 .link {
-  background-color: #033048;
-  color: #f9e42e;
+      height: 100px;
+      background-color: #f0efef;
+}
+
+.link nav {
+          background-color: #033048;
+}
+
+.link nav a {
+            color: #f9e42e;
 }
 
 /******************************************
@@ -133,10 +154,6 @@ span {
   width: 100%;
   margin: auto;
   height: 500px;
-
-}
-
-header {
 
 }
 
