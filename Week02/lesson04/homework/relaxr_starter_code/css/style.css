@@ -42,6 +42,11 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+@font-face {
+    font-family: Open Sans;
+    src: url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+    font-weight: light, light italic, semibold, extrabold;
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -59,47 +64,46 @@ header {
 }
 
 h1 {
-   font-weight: bolder;
-   margin-top: 50px;
-   margin-left: 100px;
+   font-weight: extrabold;
+   margin: 75px 0 0 100px;
 }
 
 h2 {
-   font-weight:bold;
-   text-align:center;
-   line-height: 300px;
+   font-weight: semibold;
+   text-align: center;
+   line-height: 250px;
 }
 
 nav{
    background-color: #f9e42e;
-   width: 150px;
-   margin:0 auto;
+   width: 200px;
+   margin: 0 auto;
    border-radius: 5px;
 }
 
 nav a {
-       font-weight: bolder;
+       font-weight: extrabold;
        font-size: 14px;
-       text-align: center;
-       text-decoration: none;
-       line-height: 30px;
        color: #033048;
+       text-decoration: none;
+       line-height: 50px;
+       margin-left: 65px;
 }
 
 .benefits {
-          font-weight: lighter;
+          font-weight: light;
           font-size: 13px;
           color: #606161;
           background-color: #f0efef;
-          height: 230px;
+          height: 250px;
 }
 
 h3{
-  font-weight:bold;
+  font-weight: semibold;
   font-size: 20px;
   color: #121212;
   padding-top: 20px;
-  margin-left: 100px
+  margin-left: 100px;
 }
 
 p{
@@ -116,25 +120,26 @@ ol{
 
 .quote {
        height:130px;
+       background: url(../images/testimonial_bg.jpg);
 }
 
 blockquote {
            font-style: italic;
-           font-weight: lighter;
+           font-weight: light italic;
            font-size: 18px;
            text-align: center;
-           padding-top: 20px;
-           padding-bottom: 20px;
+           padding: 20px 0 20px 0;
 }
 
 span {
-     font-weight: bold;
      font-style: normal;
+     font-weight: semibold;
 }
 
 .link {
       height: 100px;
-      background-color: #f0efef;
+      padding: 25px 0 25px 0;
+      background-color: #f9e42e;
 }
 
 .link nav {
@@ -142,6 +147,7 @@ span {
 }
 
 .link nav a {
+            margin-left: 55px;
             color: #f9e42e;
 }
 
@@ -150,6 +156,7 @@ span {
 /*******************************************/
 
 /* Center the container */
+
 #container {
   width: 100%;
   margin: auto;
@@ -157,12 +164,27 @@ span {
 
 }
 
-footer {
-          font-weight: bold;
-          font-size: 9px;
-          text-align: center;
-}
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+footer {
+       line-height: 5;
+       text-align: center;
+       background-color: #121212
+}
+
+footer h1{
+         font-size: 24px;
+         margin: 0 auto;
+}
+
+footer img {
+           padding: 0 10px 0 10px;
+}
+
+footer p {
+         font-weight: semibold;
+         font-size: 9px;
+         margin: 0 auto;
+}
