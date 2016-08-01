@@ -1,0 +1,15 @@
+* {
+  -webkit-box-sizing: border-box;
+}
+
+  .top {
+  background-color: #ff6666;
+  border: 2px solid red;
+  margin: 2px;
+  height: 150px;
+}
+
+.middle {
+  display: inline-block;
+  width: 50%;
+}
