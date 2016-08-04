@@ -42,11 +42,6 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-@font-face {
-    font-family: Open Sans;
-    src: url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
-    font-weight: light, light italic, semibold, extrabold;
-}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -102,7 +97,7 @@ h3{
   font-weight: semibold;
   font-size: 20px;
   color: #121212;
-  padding-top: 20px;
+  padding-top: 25px;
   margin-left: 100px;
 }
 
