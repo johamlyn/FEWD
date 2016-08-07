@@ -16,9 +16,8 @@
 
 body {
      font-family: Source Sans Pro, Arial;
-     font-size: 20px;
+     font-size: 25px;
      color: #000033;
-
 }
 
 header {
@@ -34,12 +33,26 @@ h1 {
     display: inline-block;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+        color: #ffff00;
+}
+
+a:active {
+          background-color: #808080;
+          text-align: center;
+}
+
+nav a {
+      color: white;
+}
+
 nav {
-    color: white;
     padding: 60px 40px 0 0;
-    text-decoration: none;
     float:right;
-    display: inline-block;
 }
 
 nav a {
@@ -52,41 +65,88 @@ nav a {
        text-transform: capitalize;
        display:inline-block;
 }
-a:hover {
-        color: #ffff00;
-}
-
 
 header p {
-         font-size: 25px;
-         text-align: center;
          font-style: italic;
-         line-height: 100px;
-         background-color: grey;
+         padding: 15px 0 15px 0;
+         text-align: center;
+         background-color: #808080;
+         border-top: 20px #ffff00;
+}
+
+span {
+    color: #bfbfbf;
+    text-decoration: line-through;
+}
+
+em {
+   text-decoration: underline;
+   text-decoration-color: #ffff00
 }
 
 main{
     background: url(../images/coworking.jpg) no-repeat;
     background-size: cover;
     height: 600px;
-    margin-bottom: 20px;
 }
 
 .boxright {
-  background-color: white;
-border: 2px solid black;
-margin: 20px;
-height: 500px;
-opacity: 0.5;
-float:right;
-width: 400px;
-padding: 30px;
-line-height: 30px;
+          line-height: 1.5em;
+          padding: 20px 40px 20px 40px;
+          background: rgba(255, 255, 255, 0.5);
+          border: 2px solid #000000;
+          margin: 50px 20px 50px 0;
+          height: 500px;
+          width: 400px;
+          float:right;
+}
 
+.boxright p {
+            padding-bottom: 20px;
+}
+
+h2 {
+   font-size: 30px;
+   font-family: Oswald;
+   line-height: 2em;
+ }
+
+ .link {
+ background-color: grey;
+ width: 250px;
+ height: 65px;
+ margin: 0 auto;
+ border-radius: 5px;
+ line-height: 2.5em;
+ }
+
+.boxright .link {
+      background-color: #ffff00;
+      padding: 0 0 0 35px;
+    }
+
+      .link a {
+       color: #000033;
+       font-family: Oswald;
+       text-transform: capitalize;
+       text-align: center;
+       display:inline-block;
+     }
+}
+
+#container {
+  height: 500px;
 }
 
 .box {
   height: 300px;
   width: 30%;
   display: inline-block;
+}
+
+footer p {
+  color: white;
+  padding-left: 40px;
+  background-color: black;
+  line-height: 3em;
 }
