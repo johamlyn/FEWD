@@ -15,8 +15,8 @@
 }
 
 body {
-     font-family: Source Sans Pro, Arial;
      font-size: 25px;
+     font-family: Source Sans Pro, Arial;
      color: #000033;
 }
 
@@ -47,7 +47,7 @@ a:active {
 }
 
 nav a {
-      color: white;
+      color: #ffffff;
 }
 
 nav {
@@ -68,15 +68,15 @@ nav a {
 
 header p {
          font-style: italic;
-         padding: 15px 0 15px 0;
          text-align: center;
          background-color: #808080;
+         padding: 15px 0 15px 0;
          border-top: 20px #ffff00;
 }
 
 span {
-    color: #bfbfbf;
     text-decoration: line-through;
+    color: #bfbfbf;
 }
 
 em {
@@ -91,11 +91,13 @@ main{
 }
 
 .boxright {
+          height: 500px;
+          width: 400px;
+          background: rgba(255, 255, 255, 0.5);
           line-height: 1.5em;
           padding: 20px 40px 20px 40px;
-          background: rgba(255, 255, 255, 0.5);
-          border: 2px solid #000000;
           margin: 50px 20px 50px 0;
+          border: 2px solid #000000;
           height: 500px;
           width: 400px;
           float:right;
@@ -112,41 +114,40 @@ h2 {
  }
 
  .link {
- background-color: grey;
- width: 250px;
- height: 65px;
- margin: 0 auto;
- border-radius: 5px;
- line-height: 2.5em;
+       height: 65px;
+       width: 250px;
+       line-height: 2.5em;
+       background-color: #808080;
+       margin: 0 auto;
+       border-radius: 5px;
  }
 
 .boxright .link {
-      background-color: #ffff00;
-      padding: 0 0 0 35px;
-    }
+                background-color: #ffff00;
+                padding: 0 0 0 35px;
+}
 
-      .link a {
-       color: #000033;
-       font-family: Oswald;
-       text-transform: capitalize;
-       text-align: center;
-       display:inline-block;
-     }
+.link a {
+        font-family: Oswald;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000033;
+        display:inline-block;
 }
 
 #container {
-  height: 500px;
+          height: 500px;
 }
 
 .box {
-  height: 300px;
-  width: 30%;
-  display: inline-block;
+     height: 300px;
+     width: 30%;
+     display: inline-block;
 }
 
 footer p {
-  color: white;
-  padding-left: 40px;
-  background-color: black;
-  line-height: 3em;
+         background-color: black;
+         color: white;
+         padding-left: 40px;
+         line-height: 3em;
 }
