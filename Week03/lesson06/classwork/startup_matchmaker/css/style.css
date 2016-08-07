@@ -5,62 +5,63 @@
 }
 
 /* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
 }
 
-.clear {
+.clearfix:after{
   clear: both;
 }
 
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
 body {
+     font-family: Source Sans Pro, Arial;
+     font-size: 20px;
      color: #000033;
-     font-family: Source Sans Pro, Helvetica, Arial;
+
 }
 
 header {
-       height: 150px;
+       height: 200px;
        background-color: #000000;
-       border-width: medium;
-       border-color: yellow;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: merriweather;
+    color: #ffff00;
+    padding: 55px 0 50px 40px;
+    display: inline-block;
 }
 
 nav {
-  float:right;
-  display: inline-block;
-  padding: 45px 20px 0 0;
-  color: white;
+    color: white;
+    padding: 60px 40px 0 0;
+    text-decoration: none;
+    float:right;
+    display: inline-block;
 }
 
-header h1 {
-          color: yellow;
-          font-size: 40px;
-          font-family: merriweather;
-          padding: 50px;
-          display: inline-block;
+nav a {
+      padding-right: 30px
 }
 
-.tagline {
+.pages {
+       font-size: 30px;
+       font-family: Oswald;
+       text-transform: capitalize;
+       display:inline-block;
+}
+a:hover {
+        color: #ffff00;
+}
+
+
+header p {
          font-size: 25px;
          text-align: center;
          font-style: italic;
-         padding: 20px;
-         height: 75px;
+         line-height: 100px;
          background-color: grey;
 }
 
@@ -71,7 +72,7 @@ main{
     margin-bottom: 20px;
 }
 
-.meet {
+.boxright {
   background-color: white;
 border: 2px solid black;
 margin: 20px;
