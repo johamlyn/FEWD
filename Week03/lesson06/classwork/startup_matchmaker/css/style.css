@@ -1,0 +1,169 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+     font-size: 25px;
+     font-family: Source Sans Pro, Arial;
+     color: #000033;
+}
+
+header {
+       height: 210px;
+       background-color: #000000;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: merriweather;
+    color: #ffff00;
+    padding: 55px 0 50px 40px;
+    display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+        color: #ffff00;
+}
+
+a:active {
+         background-color: #808080;
+         border-radius: 5px;
+}
+
+nav a {
+      color: #ffffff;
+      padding-right: 30px;
+}
+
+nav {
+    padding: 60px 40px 0 0;
+    float:right;
+}
+
+.pages {
+       font-size: 30px;
+       font-family: Oswald;
+       text-transform: capitalize;
+       display:inline-block;
+}
+
+header p {
+         border-top:5px solid #ffff00;
+         font-style:italic;
+         text-align: center;
+         background-color: #808080;
+         padding: 15px 0 20px 0;
+}
+
+span {
+     text-decoration: line-through;
+     color: #bfbfbf;
+}
+
+em {
+   text-decoration: underline;
+   text-decoration-color: #ffff00
+}
+
+main{
+    background: url(../images/coworking.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.boxright {
+          height: 500px;
+          width: 400px;
+          background: rgba(255, 255, 255, 0.5);
+          line-height: 1.5em;
+          padding: 20px 40px 20px 40px;
+          margin: 50px 20px 50px 0;
+          border: 2px solid #000000;
+          float:right;
+}
+
+.boxright p {
+            padding-bottom: 20px;
+}
+
+h2 {
+   font-size: 30px;
+   font-family: Oswald;
+   line-height: 2em;
+ }
+
+ .link {
+       height: 65px;
+       width: 250px;
+       line-height: 2.5em;
+       background-color: #808080;
+       margin: 0 auto;
+       border-radius: 5px;
+ }
+
+.boxright .link {
+                background-color: #ffff00;
+                padding: 0 0 0 35px;
+}
+
+.boxright .link a:hover {
+              color: #808080;
+}
+
+.link a {
+        font-family: Oswald;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000033;
+        display:inline-block;
+}
+
+section {
+          height: 350px;
+          padding-left: 100px;
+          padding-top: 50px;
+}
+
+.box {
+     width: 350px;
+     padding-left: 10px;
+     padding-top: 10px;
+     display: inline-block;
+     margin-left: 30px;
+}
+
+.middlebox {
+           width: 350px;
+           border-right: 2px solid #808080;
+           border-left: 2px solid #808080;
+           display: inline-block;
+           padding: 0 30px 0 30px;
+}
+
+.link a:hover {
+        color: #ffff00;
+}
+
+footer p {
+         height: 75px;
+         background-color: black;
+         color: white;
+         padding-left: 40px;
+         padding-top: 40px;
+}
