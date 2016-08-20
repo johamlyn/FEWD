@@ -1,22 +1,31 @@
-function switchCity(event){
-  event.preventDefault();
-  document.getElementById("#city-type").event = switchCity;
+var city = document.getElementById('#city-type').value;
+
+function switchBackground(event){
+event.preventDefault();
+document.querySelector("body").className.add("#city-type");
 }
 
-if ("city-type" = !==){
-  switchCity("images/citipix_skyline.jg");
-} else if ("city-type" = austin){
-  switchCity("images/austin.jg");
-} else if ("city-type" = la){
-  switchCity("images/la.jg");
-} else if ("city-type" = london){
-  switchCity("images/london.jg");
-} else if ("city-type" = nyc){
-  switchCity("images/nyc.jg");
-} else if ("city-type" = san francisco){
-  switchCity("images/sf.jg");
-} else if ("city-type" = sydney){
-  switchCity("images/sydney.jg");
-}
+    if(city === "!==") {
+      switchBackground("class", "home");
+    }
+    else if(city === "austin") {
+      switchBackground("class", "austin");
+    }
+    else if(city === "la") {
+      switchBackground("class", "la");
+    }
+    else if(city === "london") {
+      switchBackground("class", "london");
+    }
+    else if(city === "new york city") {
+      switchBackground("class", "nyc");
+    }
+    else if(city === "san francisco") {
+      switchBackground("class", "sf");
+    }
+    else if(city === "sydney") {
+      switchBackground("class", "sydney");
+    }
+  }
 
-document.querySelector("#submit-btn").onclick = switchCity;
+document.getElementById("#submit-btn").onclick = switchBackground

@@ -118,17 +118,23 @@ header {
   background: #fff600;
 }
 
+.home {
+  background-image: url(../images/citypix_skyline.jpg)
+}
+.austin {
+  background-image: url(../images/austin.jpg)
+}
+.la {
+  background-image: url(../images/la.jpg)
+}
+.london {
+  background-image: url(../images/london.jpg)
+}
 .nyc {
   background-image: url(../images/nyc.jpg)
 }
 .sf {
   background-image: url(../images/sf.jpg)
-}
-.la {
-  background-image: url(../images/la.jpg)
-}
-.austin {
-  background-image: url(../images/austin.jpg)
 }
 .sydney {
   background-image: url(../images/sydney.jpg)
