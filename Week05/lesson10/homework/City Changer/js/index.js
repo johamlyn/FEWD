@@ -1,9 +1,8 @@
-var city = document.getElementById('#city-type').value;
+var city = document.getElementById("#city-type").value;
 
 function switchBackground(event){
 event.preventDefault();
-document.querySelector("body").className.add("#city-type");
-}
+document.querySelector("body").className = "city-type";
 
     if(city === "!==") {
       switchBackground("class", "home");
