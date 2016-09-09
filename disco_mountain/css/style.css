@@ -1,0 +1,14 @@
+body {
+  background: url(../images/blue-glitter.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  color:#89cff0;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 200px;
+  font-style: italic;
+  padding-top: 275px;
+  text-align: center;;
+
+}
