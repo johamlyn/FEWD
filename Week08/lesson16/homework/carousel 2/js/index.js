@@ -1,10 +1,12 @@
 var horse = {
-	name: "Horse",
-	info:"The horse (Equus ferus caballus) is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae."
-};
+	"name": "Horse",
+	"image": "animal1",
+	"description": "The horse (Equus ferus caballus) is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae."
+}
 
 var pig = {
 	name: "Pig",
+	"image": "animal2"
 	info:"A pig is any of the animals in the genus Sus, within the Suidae family of even-toed ungulates. Pigs are highly social and intelligent animals."
 };
 
@@ -46,7 +48,7 @@ function buttonVisibility() {
 }
 
 function changeAnimal(animals) {
-	$("#currentImage").attr("src", "images/animals/" + images[i] + ".jpg" + "<h1>"animals.name"</h1>" + "<p>"animals.info"</p>");
+	$("#currentImage").attr("src", + animals[i] + ".jpg" + "<h1>"animals.name"</h1>" + "<p>"animals.info"</p>");
 	buttonVisibility();
 }
 
