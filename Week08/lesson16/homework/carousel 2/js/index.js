@@ -47,8 +47,12 @@ function buttonVisibility() {
 	}
 }
 
+var number = 1;
+
 function changeAnimal(animals) {
-	$("#currentImage").attr("src", + animals[i] + ".jpg" + "<h1>"animals.name"</h1>" + "<p>"animals.info"</p>");
+	$("#currentImage").attr("src", + animals[number].image);
+  number = number + 1; //refernce the variale "number"//change the variable//change it to number plus one
+	 + ".jpg" + "<h1>"animals.name"</h1>" + "<p>"animals.info"</p>");
 	buttonVisibility();
 }
 

@@ -1,0 +1,79 @@
+/* Box Model Hack */
+* {
+ box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: lightblue;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+}
+
+/******************
+MOVE
+******************/
+
+#move {
+  width: 100%;
+}
+
+
+/******************
+COLOR SWAP
+******************/
+
+#color-swap {
+  margin: 30px auto 0;
+  animation-duration: infinite;
+  transition: color 1s ease;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+#color-swap {
+  margin: 30px auto 0;
+  animation-duration: infinite;
+  transition: color 1s ease;
+}
+
+
+
+
+/******************
+SPINNING
+******************/
+
+#spinner {
+  margin: 30px auto 0;
+  animation: spinner;
+  animation-duration: 10s;
+}
+
+
+@keyframes spin {
+  0% {
+    transfomr: rotate(0deg);
+  }
+  50% {
+    transform: skewX(25deg);
+  }
+  100
+}
+
+
+}
